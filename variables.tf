@@ -12,3 +12,7 @@ variable "instance_type" {
     description = "instnace type for the instance"
     type = string
 }
+variable "instace_AZ" {
+    description = "instance availbility zone for it to deply"
+    type = string
+}
